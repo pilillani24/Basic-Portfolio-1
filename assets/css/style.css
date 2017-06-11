@@ -26,7 +26,7 @@ margin:2.5em 0;
 line-height:5em;
 }
 p {
-  width: 650px;
+  width: 31%;
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -50,4 +50,17 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
   background-color: #e5e6e8;
+}
+
+div.relative{
+  position: relative;
+  margin-left: 35px;
+
+}
+h2{
+  margin-left: 35px;
+}
+hr{
+  width: 31%;
+  margin-left: 35px;
 }
