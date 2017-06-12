@@ -21,6 +21,20 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+h1{
+  font-size: 300%;
+  margin-left: 57px;
+  margin-top: 30px;
+}
+
+div.relative{
+  position: fixed;
+}
+img{
+  float: right;
+  height:228px;
+}
 br {
 margin:2.5em 0;
 line-height:5em;
