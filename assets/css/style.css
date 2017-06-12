@@ -27,11 +27,20 @@ h1{
   margin-left: 57px;
   margin-top: 30px;
 }
-
+#git_icon {
+  margin-top: 0px;
+  float: right;
+  height: 80px;
+}
+#linked_icon {
+  margin-top: 0px;
+  float: right;
+  height: 80px;
+}
 div.relative{
   position: fixed;
 }
-img{
+#sat {
   float: right;
   height:228px;
 }
