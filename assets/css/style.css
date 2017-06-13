@@ -1,4 +1,11 @@
+body {
+  font-family: ‘Montserrat’, sans-serif;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: #e5e6e8;
+}
 ul {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,41 +29,82 @@ li a:hover {
     background-color: #111;
 }
 
+div.footer {
+  margin-right: 75px;
+  margin-left: 50px;
+}
+
 h1{
+  float: left;
   font-size: 300%;
   margin-left: 57px;
   margin-top: 30px;
 }
 #git_icon {
-  margin-top: 0px;
   float: right;
   height: 80px;
+  margin-top: 30px;
+  margin-right: 1%;
 }
 #linked_icon {
-  margin-top: 0px;
   float: right;
   height: 80px;
+  margin-top: 30px;
 }
 div.relative{
-  position: fixed;
+  /*background-color: lightgrey;*/
+  position: relative;
+  width: auto;
+  padding: 15%;
+  position: relative;
+  margin-top: 65px;
+  margin-right: 75px;
+}
+div.absolute_paragraphs {
+  width: 800px;
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  margin-left: 25px;
+
+}
+h2{
+  margin-top: 0px;
+  margin-top: 0px;
+}
+p {
+  position: relative;
+  width: 35%;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left:0;
+  margin-right: 0;
+}
+hr{
+  width: 31%;
+  margin-left: 35px;
+}
+div.absolute {
+  /*background-color: darkgrey;*/
+  position: absolute;
+  width: 760px;
+  top:0;
+  right: 0;
 }
 #sat {
+  position: relative;
   float: right;
-  height:228px;
+  margin: 1%;
+  height:350px;
+  width: 735px;
 }
 br {
 margin:2.5em 0;
 line-height:5em;
 }
-p {
-  width: 31%;
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 30px;
-  margin-right: 0;
-}
-table {
+
+/*table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
@@ -68,22 +116,74 @@ table, td, th {
 }
 tr:nth-child(odd){
 background-color: #f9f9f9;
-}
-body {
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-color: #e5e6e8;
-}
+}*/
 
-div.relative{
+
+/*div.relative{
   position: relative;
   margin-left: 35px;
 
+}*/
+.column1 {
+  margin-top: 50px;
+  float: right;
+  margin: 1%;
+
 }
-h2{
-  margin-left: 35px;
+#c1 {
+  height: 135px;
+  width: 235px;
 }
-hr{
-  width: 31%;
-  margin-left: 35px;
+.column2 {
+  margin-top: 50px;
+  float: right;
+  margin: 1%;
+}
+#c2 {
+  height: 135px;
+  width: 235px;
+}
+.column3 {
+  margin-top: 50px;
+  float: right;
+  margin: 1%;
+}
+#c3 {
+  height: 135px;
+  width: 235px;
+}
+/* contact.html*/
+h3{
+  font-size: 200%;
+  margin-left: 57px;
+  margin-top: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: ‘Montserrat’, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #283747;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #111;
+}
+
+.container {
+    border-radius: 5px;
+    margin-left: 57px;
 }
